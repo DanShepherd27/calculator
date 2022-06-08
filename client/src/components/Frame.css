@@ -1,0 +1,28 @@
+table, tr, td{
+    border: 2px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    height: 90%;
+    width: 80%;
+}
+
+tr {
+    height: calc(100% / 6);
+    width: 25%;
+}
+
+td {
+    width: 25%;
+    padding: 0;
+}
+
+
+.calculator-frame {
+    height: 100vh;
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
