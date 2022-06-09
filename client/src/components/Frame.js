@@ -42,7 +42,9 @@ function Frame() {
                         <tr>
                             <td><Button text='+/-'/></td>
                             <td><Button text='0'/></td>
-                            <td><Button text='.'/></td>
+                            <td><Button text='.' onclick={() => {
+                                !document.getElementById('calculator-frame__display').innerHTML.includes('.') && document.getElementById('calculator-frame__display').innerHTML !== '0' ? document.getElementById('calculator-frame__display').innerHTML += '.' : console.log('Decimal point already exists or value is zero!');
+                            }}/></td>
                             <td><Button text='+'/></td>
                         </tr>
                         <tr>
