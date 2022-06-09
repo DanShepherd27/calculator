@@ -4,8 +4,9 @@ table, tr, td{
 
 table {
     border-collapse: collapse;
-    height: 90%;
-    width: 80%;
+    height: 95%;
+    width: 95%;
+    background-color: #808080;
 }
 
 tr {
@@ -19,10 +20,33 @@ td {
 }
 
 
-.calculator-frame {
+.calculator-frame {      
     height: 100vh;
-    width: 100vh;
+    width: 100vh;    
     display: flex;
-    justify-content: center;
-    align-items: center;
+      justify-content: center;
+      align-items: center;  
+}
+
+.outline{
+    height: 90%;
+    width: 80%;
+    display: flex;
+      justify-content: center;
+      align-items: center;
+    background-color: #808080;
+    box-shadow: 5px 5px 10px #00000069;
+}
+
+.first-row td, .first-row button{
+    background-color: #8BAD70;
+    border: none;
+}
+
+.first-row button:hover {
+    background-color: #98bd7a;
+}
+
+.first-row button:active {
+    background-color: #beea9a;
 }

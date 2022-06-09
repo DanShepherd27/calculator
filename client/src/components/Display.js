@@ -3,8 +3,8 @@ import './Display.css';
 
 function Display(){
     return (
-        <div className="Display">
-
+        <div id="calculator-frame__display" className="display">
+            0
         </div>
     )
 }

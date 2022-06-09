@@ -1,2 +1,5 @@
-.Display{
+.display{
+    font-size: 5vh;
+    color: white;
+    text-align: right;
 }

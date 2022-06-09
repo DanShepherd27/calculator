@@ -4,4 +4,13 @@ button{
     background-color: #D9D9D9;    
     border: none;
     padding: 0px;
+    font-size: 5vh;
+}
+
+button:hover {
+    background-color: #e4e4e4;
+}
+
+button:active {
+    background-color: #ffffff;
 }
