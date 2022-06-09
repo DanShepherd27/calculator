@@ -1,5 +1,8 @@
-.display{
-    font-size: 5vh;
-    color: white;
-    text-align: right;
+.display {
+  font-size: 7vh;
+  color: white;
+  text-align: right;
+  /* overflow needs to be fixed */
+  overflow: clip;
+  padding: 10px;
 }
