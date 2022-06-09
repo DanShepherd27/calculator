@@ -77,7 +77,23 @@ function Frame() {
             </tr>
             <tr>
               <td>
-                <Button text="+/-" />
+                <Button
+                  text="+/-"
+                  onclick={() => {
+                    let content = [
+                      ...document.getElementById("calculator-frame__display")
+                        .innerHTML,
+                    ];
+                    if (!(content[0] === "0")) {
+                      !(content[0] === "-")
+                        ? content.unshift("-")
+                        : content.shift();
+                    }
+                    document.getElementById(
+                      "calculator-frame__display"
+                    ).innerHTML = content.join("");
+                  }}
+                />
               </td>
               <td>
                 <Button text="0" />
